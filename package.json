@@ -1,6 +1,6 @@
 {
   "name": "@keqingrong/react-native-cli-apis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Programmatic APIs for React Native CLI",
   "module": "dist/react-native-cli-apis.esm.js",
   "main": "dist/index.js",
