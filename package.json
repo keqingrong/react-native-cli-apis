@@ -32,7 +32,7 @@
     "analyze": "size-limit --why"
   },
   "dependencies": {
-    "@keqingrong/npm-apis": "^0.5.0",
+    "@keqingrong/npm-apis": "^0.6.0",
     "decamelize": "^5.0.0",
     "fs-extra": "^10.0.0"
   },
