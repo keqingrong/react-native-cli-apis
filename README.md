@@ -44,6 +44,7 @@ import { bundle, setPATH } from '@keqingrong/react-native-cli-apis';
 ## APIs
 
 - `bundle(config)` Builds the JavaScript bundle for offline use
+- `version()` Print React Native CLI version
 
 ## License
 
