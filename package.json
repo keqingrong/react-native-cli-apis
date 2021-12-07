@@ -2,9 +2,16 @@
   "name": "@keqingrong/react-native-cli-apis",
   "version": "0.2.0",
   "description": "Programmatic APIs for React Native CLI",
-  "module": "dist/react-native-cli-apis.esm.js",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "module": "./dist/react-native-cli-apis.esm.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/react-native-cli-apis.esm.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
