@@ -7,6 +7,7 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "package.json": "./package.json",
       "require": "./dist/index.js",
       "import": "./dist/react-native-cli-apis.esm.js",
       "types": "./dist/index.d.ts"
@@ -39,7 +40,7 @@
     "analyze": "size-limit --why"
   },
   "dependencies": {
-    "@keqingrong/npm-apis": "^0.6.0",
+    "@keqingrong/npm-apis": ">=0.6.0",
     "decamelize": "^5.0.0",
     "fs-extra": "^10.0.0"
   },
