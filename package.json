@@ -7,11 +7,11 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "package.json": "./package.json",
       "require": "./dist/index.js",
       "import": "./dist/react-native-cli-apis.esm.js",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
